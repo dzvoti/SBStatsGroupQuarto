@@ -1,0 +1,49 @@
+---
+title: "Quarto"
+author: "Liberty Mlambo"
+format: 
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    footer: <https://github.com/dzvoti/SBStatsQuarto>
+    css: style.css
+    controls: true
+    standalone: true
+---
+## Installation
+- Quarto is available for Windows, Mac, and Linux. You can download the latest version from <https://quarto.org/download>. 
+- However RStudio comes with Quarto pre-installed. So if you have RStudio you don't need to install Quarto separately.
+
+## Getting Started
+- To create a quarto document you can use RStudio or any text editor. 
+- To create a new quarto document in RStudio go to `File > New File > Quarto...` and select the type of document you want to create. 
+- You can also create a new quarto document from the RStudio menu `File > New Project > New Directory > Quarto...`
+
+## How it works
+- Quarto documents `(.qmd)` are written in Markdown. 
+- Markdown is a lightweight markup language with plain text formatting syntax. It is designed so that it can be converted to HTML and many other formats using a tool by the same name. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
+
+## How it works
+```{mermaid}
+flowchart LR
+    A(Quarto *.qmd) --> B(knitr) 
+    A --> C(Jupyter)
+    C --> D(md)
+    B --> D(md)
+    D --> E(Pandoc)
+    E --> F(Documents/Articles)
+    E --> G(Books)
+    E --> H(Presentations)
+    F --> I(HTML)
+    F --> J(PDF)
+    F --> K(Word)
+    H --> L(Reveal JS)
+    H --> M(Beamer)
+    H --> N(Powerpoint)
+    G --> O(Web Books)
+    G --> P(EPub)
+    G --> Q(PDF)
+
+```

@@ -1,0 +1,34 @@
+# Custom page
+
+This is the general workflow
+
+```{mermaid}
+flowchart LR
+  A[Create quarto *qmd] --> B(Save the changes)
+  B --> C{The Changes are sent to Pandoc.}
+  C --> D[Pandoc will Create the *.html standalone]
+  D --> E[Blah blab]
+  D --> F[Result two]
+```
+
+
+
+:::{.callout-note}
+```{r}
+x <- sample(1:1000,10)
+plot(x)
+```
+:::
+
+## PDF Presentation
+<iframe src="images/Sample_surveys1.pdf" width="100%" height="600px"></iframe>
+
+## Presentation
+
+<iframe src="images/StatsGroup.html" width="100%" height="600px" sandbox="allow-scripts allow-same-origin"></iframe>
+
+## R4HCES
+
+<iframe src="https://dzvoti.github.io/r4hces" width="800" height="600"></iframe>
+
+

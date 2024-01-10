@@ -1,0 +1,7 @@
+# Practical 
+
+## Requirements
+
+- Latest R version
+- IDE (RStudio, VSCode, etc.)
+-- RStudio is recommended because it is easier to use.

@@ -1,0 +1,58 @@
+# Introduction
+
+Quarto is a new publishing framework for scientific and technical content. It is designed to be easy to use, flexible, and powerful. 
+
+- Quarto is built on top of the [R programming language](https://www.r-project.org/)
+- [Markdown](https://daringfireball.net/projects/markdown/)
+- [Pandoc](https://pandoc.org/)
+
+Quarto is open source and free to use.
+
+<div>
+
+```{=html}
+<iframe class="slide-deck" src="images/intro-pres/intro-presentation.html" width="100%" height="500px"></iframe>
+```
+
+</div>
+
+## Installation
+Quarto is available for Windows, Mac, and Linux. You can download the latest version from <https://quarto.org/download>. However RStudio comes with Quarto pre-installed. So if you have RStudio you don't need to install Quarto separately.
+
+## Getting Started
+To create a quarto document you can use RStudio or any text editor. To create a new quarto document in RStudio go to `File > New File > Quarto...` and select the type of document you want to create. You can also create a new quarto document from the RStudio menu `File > New Project > New Directory > Quarto...`
+
+## How it works
+Quarto documents `(.qmd)` are written in Markdown. Markdown is a lightweight markup language with plain text formatting syntax. It is designed so that it can be converted to HTML and many other formats using a tool by the same name. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
+
+```{mermaid}
+flowchart LR
+    A(Quarto *.qmd) --> B(knitr) 
+    A --> C(Jupyter)
+    C --> D(md)
+    B --> D(md)
+    D --> E(Pandoc)
+    E --> F(Documents/Articles)
+    E --> G(Books)
+    E --> H(Presentations)
+    F --> I(HTML)
+    F --> J(PDF)
+    F --> K(Word)
+    H --> L(Reveal JS)
+    H --> M(Beamer)
+    H --> N(Powerpoint)
+    G --> O(Web Books)
+    G --> P(EPub)
+    G --> Q(PDF)
+
+```
+
+## Quarto Examples Gallery
+
+<https://quarto.org/docs/gallery/>
+
+<iframe src="https://quarto.org/docs/gallery/" width="100%" height="500px"></iframe>
+
+
+
+
