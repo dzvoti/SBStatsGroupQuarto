@@ -54,5 +54,12 @@
     "title": "3  Custom page",
     "section": "3.3 R4HCES",
     "text": "3.3 R4HCES"
+  },
+  {
+    "objectID": "intro.html#requirements",
+    "href": "intro.html#requirements",
+    "title": "2  Practical",
+    "section": "2.1 Requirements",
+    "text": "2.1 Requirements\n\nLatest R version\nIDE (RStudio, VSCode, etc.) – RStudio is recommended because it is easier to use."
   }
 ]

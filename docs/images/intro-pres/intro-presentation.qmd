@@ -7,10 +7,10 @@ format:
     chalkboard: 
       buttons: false
     preview-links: auto
-    footer: <https://github.com/dzvoti/SBStatsQuarto>
+    footer: <https://github.com/dzvoti/SBStatsGroupQuarto>
     css: style.css
     controls: true
-    standalone: true
+
 ---
 ## Installation
 - Quarto is available for Windows, Mac, and Linux. You can download the latest version from <https://quarto.org/download>. 

@@ -10,9 +10,9 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
-    - custom_page.qmd
-    - summary.qmd
-    - references.qmd
+    # - custom_page.qmd
+    # - summary.qmd
+    # - references.qmd
 
 bibliography: references.bib
 
